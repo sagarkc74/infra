@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "karo-terraform-state"
+  bucket = "sagar-terraform-state"
 
   lifecycle {
     prevent_destroy = true
